@@ -4,4 +4,10 @@ layout: default
 <h1>{{ page.title }} </h1>
 <p>{{ page.date | date_to_string }} - {{ page.author }}</p>
 
+{% assign filtered_project = site.projects | where: 'project', page.project %}
+{{ filtered_project | inspect }}
+{{ page | inspect }}
+<p>Project: <a href="{{ filtered_project.url }}">{{ page.project }}</a></p>
+
 {{ content }}
+
