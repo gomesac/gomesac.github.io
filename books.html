@@ -1,0 +1,10 @@
+---
+title: Books
+---
+<h1>Book Recommendations</h1>
+* = Read Books
+
+{% for book in site.data.books %}
+  <h2>{{ book.title }}{% if book.read %}*{% endif %}</h2>
+  <h5>by: {{ book.author }}</h5>
+{% endfor %}

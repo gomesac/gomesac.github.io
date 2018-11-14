@@ -1,0 +1,8 @@
+---
+title: Cooking
+---
+<h1>Average Cooking Recipes</h1>
+
+{% for recipe in site.data.cooking %}
+  <h2>{{ recipe.name }}</h2>
+{% endfor %}

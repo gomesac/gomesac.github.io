@@ -1,0 +1,24 @@
+- title: Frankenstein
+  author: Mary Shelley
+  topQuote:
+  comment:
+  read: true
+  classification:
+- title: Oliver Twist
+  author: Charles Dicken
+  topQuote:
+  comment:
+  read: false
+  classification:
+- title: Algorithms
+  author: Sedgewick
+  topQuote:
+  comment:
+  read: true
+  classification: Computer Science
+- title: Mythical Man Month
+  author: Sedgwick
+  topQuote:
+  comment:
+  read: true
+  classification: Computer Science
