@@ -1,6 +1,7 @@
 ---
 project: GateKeeper
 title: Human Intuition > Artificial Intelligence
+subtitle: This is not the clickbait you are looking for
 ---
 
 https://www.forbes.com/sites/brucekasanoff/2017/02/21/intuition-is-the-highest-form-of-intelligence/
