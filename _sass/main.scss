@@ -1,3 +1,13 @@
+@font-face {
+font-family: "Metropolis Regular";
+src: url("../fonts/Metropolis-Regular.ttf");
+}
+
+html {
+  font-family: "Metropolis Regular"
+}
+
+
 .current {
   color: green;
 }
