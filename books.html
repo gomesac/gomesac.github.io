@@ -1,10 +1,12 @@
 ---
 title: Books
 ---
-<h1>Book Recommendations</h1>
+<h1>Words on Pages in Bindings Recommendations</h1>
 * = Read Books
 
+
+<ul>
 {% for book in site.data.books %}
-  <h2>{{ book.title }}{% if book.read %}*{% endif %}</h2>
-  <h5>by: {{ book.author }}</h5>
+  <li>{{ book.title }}{% if book.read %}<span class="readBook">*</span>{% endif %} - {{ book.author }}</li>
 {% endfor %}
+</ul>

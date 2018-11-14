@@ -3,7 +3,7 @@
   topQuote:
   comment:
   read: true
-  classification:
+  classification: story
 - title: Oliver Twist
   author: Charles Dicken
   topQuote:
@@ -22,3 +22,27 @@
   comment:
   read: true
   classification: Computer Science
+- title: Kite Runner
+  author:
+  topQuote:
+  comment:
+  read: true
+  classification: story
+- title: War and Peace
+  author: Tolstoy
+  topQuote:
+  comment:
+  read: false
+  classification: philosophy
+- title: The Power
+  author:  Elite C. Wright Mills
+  topQuote:
+  comment:
+  read: false
+  classification: story
+- title: The Alchemist
+  author: Paulo Coelho
+  topQuote:
+  comment:
+  read: true
+  classification: story
