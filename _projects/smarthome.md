@@ -1,5 +1,5 @@
 ---
-name: Magic Mirror Home Server
+name: Smart Home Server
 stage: development
 ---
 All encompassing:
