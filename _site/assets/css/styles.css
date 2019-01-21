@@ -1,6 +1,9 @@
 @font-face { font-family: "Metropolis Regular"; src: url("../fonts/Metropolis-Regular.ttf"); }
-html { font-family: "Metropolis Regular"; }
+html, body { width: 100%; font-family: "Metropolis Regular"; }
 
-.current { color: green; }
+a { color: blue; text-decoration: none; }
+a:hover { color: purple; }
+
+.current { font-style: italic; text-decoration: underline; }
 
 .readBook { color: red; }
