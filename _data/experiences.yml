@@ -1,3 +1,7 @@
+- company: National Society of Black Engineers
+  title: President
+  present: true
+  location: San Antonio, TX
 - company: Cocoon
   title: Founder
   present: true
@@ -10,6 +14,14 @@
   title: Fellow
   present: true
   location: San Antonio, Texas
+- company: Philippine Society of Boston College
+  title: Co-President
+  present: true
+  location: Chestnut Hill, MA
+- company: Boston College, Mentoring & Leadership
+  title: Undergraduate Research Assitant
+  present: true
+  location: Chestnut Hill, MA
 - company: Tesla
   title: Software Developer Intern
   present: false
