@@ -2,11 +2,19 @@
 title: Books
 ---
 <h1>Words on Pages in Bindings Recommendations</h1>
-* = Read Books
 
-
+2019
 <ul>
-{% for book in site.data.books %}
-  <li>{{ book.title }}{% if book.read %}<span class="readBook">*</span>{% endif %} - {{ book.author }}</li>
+{% assign filtered_books = site.data.books | where: 'read', true %}
+{% for book in filtered_books %}
+  <li>{{ book.title }} by <span style="font-style: italic">{{ book.author }}</span></li>
 {% endfor %}
+</ul>
+
+Book List
+<ul>
+  {% assign filtered_books = site.data.books | where: 'read', false %}
+  {% for book in filtered_books %}
+    <li>{{ book.title }}</li>
+  {% endfor %}
 </ul>

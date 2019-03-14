@@ -1,48 +1,84 @@
 - title: Frankenstein
   author: Mary Shelley
-  topQuote:
   comment:
   read: true
-  classification: story
-- title: Oliver Twist
-  author: Charles Dicken
-  topQuote:
-  comment:
-  read: false
-  classification:
-- title: Algorithms
-  author: Sedgewick
-  topQuote:
-  comment:
-  read: true
-  classification: Computer Science
 - title: Mythical Man Month
-  author: Sedgwick
-  topQuote:
+  author: Fred Brooks
   comment:
   read: true
-  classification: Computer Science
 - title: Kite Runner
-  author:
-  topQuote:
+  author: Khaled Hosseini
   comment:
   read: true
-  classification: story
-- title: War and Peace
-  author: Tolstoy
-  topQuote:
-  comment:
-  read: false
-  classification: philosophy
-- title: The Power
-  author:  Elite C. Wright Mills
-  topQuote:
-  comment:
-  read: false
-  classification: story
 - title: The Alchemist
   author: Paulo Coelho
-  topQuote:
   comment:
   read: true
-  classification: story
+- title: My Bondage and Freedom
+  author: Frederick Douglass
+  comment:
+  read: true
+- title: Mediatations
+  author: Marcus Aurlios
+  comment:
+  read: true
+- title: Three Body Problem
+  author:
+  read: false
+- title: Don Quixote (original spanish)
+  author:
+  read: false
+- title: Innumeracy
+  author:
+  read: false
+- title: A Philosophy of Software Design
+  author: John Ousterhoust
+  read: false
+- title: A Tale of Two Cities
+  author: Charles Dicken
+  read: false
+- title: The Gospel of Mary of Magdala
+  author:
+  read: false
+- title: Bhagavad Gita
+  author:
+  read: false
+- title: On computable numbers wuth an application to the falseentshedungsproblem
+  author:
+  read: false
+- title: The Annotated Turing - A Guided Tour Through Alan Turing
+  author:
+  read: false
+- title: Shoe Dog
+  author:
+  read: false
+- title: Letters from a Stoic
+  author: Seneca
+  read: false
+- title: The Illustrated Man
+  author:
+  read: false
+- title: A Modest Proposal
+  author:
+  read: false
+- title: The Master Algorithm
+  author: Pedro Domingos
+  read: false
+- title: Paradise Lost
+  author: John Milton
+  read: false
+- title: Euclid’s Elements
+  author:
+  read: false
+- title: Athesim and Thesim
+  author: J.J.C. Smart & John Haldane
+  read: false
+- title: Master and Margarita
+  author:
+  read: false
+- title: Developer Hegemony
+  author:
+  read: false
+- title: Neuromancer
+  author: William Gibson
+  read: false
