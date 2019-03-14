@@ -6,8 +6,20 @@ src: url("../fonts/Metropolis-Regular.ttf");
 html, body {
   width: 100%;
   font-family: "Metropolis Regular";
-
+  display: -webkit-flex;
+  -webkit-flex-direction: column;
+  -webkit-align-items: center;
 }
+
+nav {
+  padding-top: 10px;  
+}
+
+main {
+  width:  80%;
+  padding-top: 30px;
+}
+
 
 h1 {
 
@@ -41,6 +53,10 @@ a {
   }
   &:visited {
   }
+}
+
+li {
+  list-style: none;
 }
 
 .current {

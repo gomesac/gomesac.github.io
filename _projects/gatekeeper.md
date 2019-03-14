@@ -1,7 +1,9 @@
 ---
 name: GateKeeper
-stage: development
+stage: failed
 ---
-Gatekeeper is a Interviewing as a Service Platform
+[GateKeeper](https://gatekeeper.cocoonfirm.com "GateKeeper website") is an Interviewing as a Service Platform
+
+Status: {{ stage }}
 
 It is a platform for professionals and experts to earn money vetting candidates for early Startups` roles
