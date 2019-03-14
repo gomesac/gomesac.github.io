@@ -1,0 +1,29 @@
+---
+title: Resume
+---
+<h1>Resume</h1>
+
+<h2> Experiences </h2>
+{% for expereience in site.data.experiences %}
+    <ul>
+      <li>
+        <span style="font-weight: bold">{{ expereience.company }} {% if expereience.present %}</span><span style="font-style: italic">*present</span>{% endif %}
+      </li>
+      <li>{{ expereience.title}}</li>
+      <li>{{ expereience.location}}</li>
+    </ul>
+{% endfor %}
+
+<h2> Tools </h2>
+<ul>
+  {% for tool in site.data.tools %}
+    <li>{{ tool.name }}</li>
+  {% endfor %}
+</ul>
+
+<h2> Languages </h2>
+<ul>
+  {% for language in site.data.languages %}
+    <li>{{ language.name }}</li>
+  {% endfor %}
+</ul>

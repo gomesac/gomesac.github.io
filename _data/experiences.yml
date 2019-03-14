@@ -1,0 +1,20 @@
+- company: Cocoon
+  title: Founder
+  present: true
+  location: Remotely
+- company: Go Smart Solar
+  title: Lead Software Engineer
+  present: true
+  location: San Antonio, Texas
+- company: Venture for America
+  title: Fellow
+  present: true
+  location: San Antonio, Texas
+- company: Tesla
+  title: Software Developer Intern
+  present: false
+  location: Fremont, CA
+- company: National Aeronautics and Space Administration
+  title: Machine Systems Intern
+  present: false
+  location: Mountain View, CA
