@@ -1,16 +1,30 @@
 - name: Fried Chicken Sandwich
+  rating: Tradition Ready
   ingrediants:
 - name: 5 Cheeses Baked Mac and Cheese
+  rating: More R&D needed
   ingrediants:
-- name: Pickle Brined Fried Chicken
-  ingredients:
 - name: Black Garlic Carbonara
-  ingredients:
+  rating: Ideation phase
+  ingrediants:
 - name: Adobo v1
+  rating: More R&D needed
   ingrediants:
 - name: Adobo v2
+  rating: More R&D needed
   ingrediants:
 - name: Lechon
+  rating: More R&D needed
   ingrediants:
 - name: Singang
+  rating: Tradition Ready
+  ingrediants:
+- name: Pickle Brined Fried Chicken
+  rating: More R&D needed
+  ingrediants:
+- name: Spicey Buttermilk Fried Chicken
+  rating: More R&D needed
+  ingrediants:
+- name: Bicol Express
+  rating: Ideation phase
   ingrediants:
