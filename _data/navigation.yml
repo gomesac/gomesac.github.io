@@ -8,5 +8,7 @@
   link: /cooking.html
 - name: Books
   link: /books.html
+- name: OSS
+  link: /open-source-software.html
 - name: Resume
   link: /resume.html

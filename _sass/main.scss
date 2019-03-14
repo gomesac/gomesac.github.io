@@ -12,11 +12,21 @@ html, body {
 }
 
 nav {
-  padding-top: 10px;  
+  padding-top: 10px;
+}
+
+footer {
+  width: 100%;
+  padding: 10px;
+  display: -webkit-flex;
+  -webkit-flex-direction: column;
+  -webkit-align-items: center;
+  background-color: #efefef;
 }
 
 main {
   width:  80%;
+  min-height: calc(100vh - 30px);
   padding-top: 30px;
 }
 
