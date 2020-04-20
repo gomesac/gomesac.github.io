@@ -4,14 +4,16 @@ title: Resume
 <h1>Resume</h1>
 
 <h2> Experiences </h2>
-{% for expereience in site.data.experiences %}
+{% for experience in site.data.experiences %}
     <ul>
       <li>
-        <span style="font-weight: bold">{{ expereience.company }} {% if expereience.present %}</span><span style="font-style: italic">*present</span>{% endif %}
+        <span style="font-weight: bold">{{ experience.company }} {% if experience.present %}</span><span style="font-style: italic">*present</span>{% endif %}
       </li>
-      <li>{{ expereience.title}}</li>
-      <li>{{ expereience.location}}</li>
-      <li>{{ expereience.link}}</li>
+      <li>{{ experience.title}}</li>
+      <li>{{ experience.location}}</li>
+      {% if experience.link.present %}
+      <li><a href="{{experience.link}}">{{experience.link}}</a></li>
+      {% endif %}
     </ul>
 {% endfor %}
 
