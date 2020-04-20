@@ -11,9 +11,7 @@ title: Resume
       </li>
       <li>{{ experience.title}}</li>
       <li>{{ experience.location}}</li>
-      {% if experience.link.present %}
       <li><a href="{{experience.link}}">{{experience.link}}</a></li>
-      {% endif %}
     </ul>
 {% endfor %}
 
