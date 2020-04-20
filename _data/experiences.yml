@@ -1,22 +1,25 @@
-- company: National Society of Black Engineers
-  title: President
-  present: true
-  location: San Antonio, TX
 - company: Cocoon
   title: Founder
   present: true
   location: Remotely
+  link: https://www.cocoon.build
 - company: Go Smart Solar
-  title: Lead Software Engineer
+  title: Senior Software Engineer
   present: true
   location: San Antonio, Texas
+  link: https://www.gosmartsolar.com
 - company: Venture for America
   title: Fellow
   present: true
   location: San Antonio, Texas
+  link: https://www.ventureforamerica.org
+- company: National Society of Black Engineers
+  title: President
+  present: false
+  location: San Antonio, TX
 - company: Philippine Society of Boston College
   title: Co-President
-  present: true
+  present: false
   location: Chestnut Hill, MA
 - company: Boston College, Mentoring & Leadership
   title: Undergraduate Research Assitant
