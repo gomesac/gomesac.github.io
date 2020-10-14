@@ -42,15 +42,18 @@ html, body {
 }
 
 body {
-  width: 100%;
-  max-width: 800px;
   margin: 0;
-  padding: 20px;
+  padding: 0;
   line-height: 1.25;
 }
 
 nav {
-  padding-top: 10px;
+  padding: 30px 20px 0 20px;
+  line-height: 1.5;
+  a {
+    padding: 0 5px;
+    font-size: 16px;
+  }
 }
 
 footer {
@@ -60,7 +63,8 @@ footer {
 }
 
 main {
-  width: 100%;
+  width: 80%;
+  max-width: 800px;
   padding-top: 30px;
 }
 
