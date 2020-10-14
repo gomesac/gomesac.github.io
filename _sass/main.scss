@@ -1,7 +1,31 @@
 @font-face {
-font-family: "Metropolis Regular";
-src: url("../fonts/Metropolis-Regular.ttf");
+  font-family: "Metropolis Regular";
+  src: url("../fonts/Metropolis-Regular.ttf");
 }
+
+// Background and main font color
+$bg: #282828;
+$fg: #ebdbb2;
+
+// Sub-headers
+$orange: #d65d0e;
+
+// Quotes, Sources
+$green: #98971a;
+$aqua: #689d6a; // author
+
+// Bold
+$yellow: #d79921;
+
+// Code Blocks, Hints, Labels
+$gray: #a89984;
+
+// Links
+$blue: #458588;
+$purple: #b16286;
+
+// Important notice
+$red: #cc241d;
 
 html, body {
   width: 100%;
@@ -13,6 +37,8 @@ html, body {
   display: -webkit-flex;
   -webkit-flex-direction: column;
   -webkit-align-items: center;
+  background-color: $bg;
+  color: $fg;
 }
 
 body {
@@ -40,7 +66,8 @@ main {
 
 
 h1 {
-  font-size: 36px;
+  color: $yellow;
+  font-size: 32px;
 }
 
 h2 {
@@ -52,25 +79,26 @@ h3 {
 }
 
 h4 {
-  font-size: 20px;
+  font-size: 18px;
 }
 
 h5 {
-  font-size: 18px;
+  font-size: 16px;
 }
 
 p {
-  font-size: 18px;
+  font-size: 14px;
 
 }
 
 a {
-  color: blue;
+  color: $blue;
   text-decoration: none;
-  &:hover {
-    color: purple;
-  }
   &:visited {
+    color: $purple;
+  }
+  &:hover {
+    color: $purple;
   }
 }
 
@@ -83,6 +111,22 @@ li {
   text-decoration: underline;
 }
 
-.readBook {
-  color: red;
+.subtitle {
+ color: $orange;
+}
+
+.bold {
+ color: $yellow;
+ font-weight: 500;
+}
+
+.quote {
+ color: $green;
+}
+.author {
+ color: $aqua;
+}
+
+.attention {
+  color: $red;
 }

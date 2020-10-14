@@ -1,6 +1,5 @@
 ---
 layout: home
-title: Home | Andre L. Gomes
 ---
 <h2>Documenting my stuff because I&rsquo;ve learn from others&rsquo; documentation.</h2>
 
@@ -8,13 +7,15 @@ title: Home | Andre L. Gomes
 
 <p>Website is in constant development. If you see any errors or improvements either make a pull request on <a href="https://github.com/gomesac/gomesac.github.io" target="_blank" rel="noopener noreferrer">Github</a> or feel free to contact me</p>
 
-Contact Information </br>
-Email: andre at cocoon dot build<br />
-Instagram: <a href="https://www.instagram.com/cocoon.build/" target="_blank" rel="noopener noreferrer">@cocoon.build</a><br /> 
+<h4>Contact Information</h4>
+andre at cocoon dot build<br />
+<a href="https://www.instagram.com/cocoon.build/" target="_blank" rel="noopener noreferrer">@cocoon.build</a><br /> 
 <a href="https://www.linkedin.com/in/gomesan/" target="_blank" rel="noopener noreferrer">LinkedIn Profile</a><br />
 
 <br />
 {% assign quote = site.data.quotes | first %}
+<span class="quote">
 {{ quote.content }} 
+</span>
 <br />
-- <a target="_blank" rel="noopener noreferrer" href="https://en.wikipedia.org/wiki/Ada_Lovelace"/>{{ quote.author }}</a>
+<span class="author">- {{ quote.author }}</span>
