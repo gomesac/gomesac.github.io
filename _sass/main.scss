@@ -48,7 +48,7 @@ body {
 }
 
 nav {
-  padding: 30px 20px 0 20px;
+  padding-top: 10px;
   line-height: 1.5;
   a {
     padding: 0 5px;
@@ -56,18 +56,14 @@ nav {
   }
 }
 
-footer {
-  width: 100%;
-  padding: 20px;
-  background-color: #efefef;
-}
-
 main {
-  width: 80%;
+  width: 90%;
   max-width: 800px;
-  padding-top: 30px;
+  padding: 50px 0;
 }
 
+footer {
+}
 
 h1 {
   color: $yellow;
@@ -83,15 +79,15 @@ h3 {
 }
 
 h4 {
-  font-size: 18px;
+  font-size: 20px;
 }
 
 h5 {
-  font-size: 16px;
+  font-size: 18px;
 }
 
 p {
-  font-size: 14px;
+  font-size: 16px;
 
 }
 

@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 
 gem 'jekyll'
-gem "minima", "~> 2.0"
+gem "minima"
 
 group :jekyll_plugins do
   gem 'github-pages'

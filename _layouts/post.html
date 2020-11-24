@@ -2,10 +2,6 @@
 layout: default
 ---
 <h1>{{ page.title }} </h1>
-<p>{{ page.date | date_to_string }} - Andre Gomes</p>
+<p>{{ page.date | date_to_string }}</p>
 
-{% assign post = site.posts | where: 'name', page.post | first %}
-{% if post %}
-  <p>@<a href="{{ post.url }}">{{ post.name }}</a></p>
-{% endif %}
 {{ content }}
