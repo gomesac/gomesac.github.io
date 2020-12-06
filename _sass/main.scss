@@ -9,6 +9,7 @@ $fg: #ebdbb2;
 
 // Sub-headers
 $orange: #d65d0e;
+$orange2: #fe8019;
 
 // Quotes, Sources
 $green: #98971a;
@@ -16,6 +17,7 @@ $aqua: #689d6a; // author
 
 // Bold
 $yellow: #d79921;
+$yellow2: #fabd2f;
 
 // Code Blocks, Hints, Labels
 $gray: rgb(168, 153, 132);
@@ -67,13 +69,13 @@ footer {
 
 h1 {
   color: $green;
-  font-size: 32px;
-  font-weight: 900;
+  font-size: 30px;
+  font-weight: 200;
 }
 
 h2 {
-  color: $yellow;
-  font-size: 30px;
+  color: $yellow2;
+  font-size: 28px;
   font-weight: 700;
 }
 
@@ -122,7 +124,7 @@ li {
 }
 
 .bold {
- color: $yellow;
+ color: $orange2;
  font-weight: 500;
 }
 

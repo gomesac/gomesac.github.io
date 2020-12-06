@@ -1,16 +1,16 @@
 ---
 layout: post
-title: One Year Thoughts on WSL2
+title: One Year Thoughts on Windows Subsystem for Linux 2
 ---
 I have been using Windows Subsystem for Linux 2 for a little over a year now and wanted to share my general experience and thoughts on my new development environment. The quick conclusion: I highly recommend trying out WSL2 - if you are willing to put in the effort. 
 
-The main advantages are the integration with Windows OS, allowing isolated distros, and speed/performance. The setbacks I have faced are VPN, windows insider updates, configuration setup, and paradoxically speed/performance. 
-
-Windows Subsytem for Linux 2, WSL2 for short, is a virtualization container on the Windows Operating System. As shown from the image below, I am able to simutanously run Windows programs like Adobe Illustrator with a Ubuntu shell 
+Windows Subsytem for Linux 2, WSL2 for short, is a virtualization container on the Windows Operating System. As shown from the image below, I am able to simutanously run programs like Adobe Illustrator with a Ubuntu shell. 
 
 [ screenshot of images ]
 
 If you have used a Mac, its like running Parallel or booting up with Boot Camp. But unlike virtual machines like Virtual Box, WSL2 is integrated with windows allowing you to intereact with wsl2 and Window files all in the shell. Some clear benefits from the start is not needing to boot up when you want to switch operating systems and is completely free. 
+
+The main advantages are the integration with Windows OS, allowing isolated distros, and speed/performance. The setbacks I have faced are VPN, windows insider updates, configuration setup, and paradoxically speed/performance. 
 
 The development windows system and I have not clicked yet and altough it is vast much better when I started coding years ago with VSCode, I miss Unix cli. But at the same time of my gripes with Windows, Mac development experience was great but the surronding ecosystem was very limited. 
 
