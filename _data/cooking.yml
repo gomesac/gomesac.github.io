@@ -1,30 +1,30 @@
-- name: Fried Chicken Sandwich
-  rating: Tradition Ready
-  ingrediants:
-- name: 5 Cheeses Baked Mac and Cheese
+# Rating: Lunchbox Ready, Ideation phase, More R&D needed
+- name: Bicol Express
   rating: More R&D needed
-  ingrediants:
+  rating: Lunchbox Ready
+  ingredients:
+- name: 5 Cheese Baked Mac and Cheese
+  rating: More R&D needed
+  ingredients:
 - name: Black Garlic Carbonara
   rating: Ideation phase
-  ingrediants:
-- name: Adobo v1
+  ingredients:
+- name: Pork belly Adobo 
   rating: More R&D needed
-  ingrediants:
-- name: Adobo v2
+  ingredients:
+- name: Coconut Adobo 
   rating: More R&D needed
-  ingrediants:
+  ingredients:
 - name: Lechon
   rating: More R&D needed
-  ingrediants:
+  ingredients:
 - name: Singang
-  rating: Tradition Ready
-  ingrediants:
+  rating: More R&D needed
+  rating: Lunchbox Ready
+  ingredients:
 - name: Pickle Brined Fried Chicken
   rating: More R&D needed
-  ingrediants:
-- name: Spicey Buttermilk Fried Chicken
+  ingredients:
+- name: Spicy Buttermilk Fried Chicken
   rating: More R&D needed
-  ingrediants:
-- name: Bicol Express
-  rating: Ideation phase
-  ingrediants:
+  ingredients:

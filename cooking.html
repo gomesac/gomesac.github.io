@@ -3,9 +3,11 @@ title: Cooking
 ---
 <h1>Satisfactory Cooking Recipes</h1>
 
-<p>Working recipes, hopefully will be good enough for my kids not to order takeout</p>
+<p>Working recipes, hopefully will be good enough for my kids not to order takeout and flex on other kids' lunches</p>
 
 {% for recipe in site.data.cooking %}
-  <h2 style="margin: 0">{{ recipe.name }}</h2>
-  <p>{{ recipe.rating }}</p>
+  <div style="background-color: rgba(168, 153, 132, 0.2); padding: 10px; margin-bottom: 10px;">
+    <h2 style="margin: 0">{{ recipe.name }}</h2>
+    <p>{{ recipe.rating }}</p>
+  </div>
 {% endfor %}
