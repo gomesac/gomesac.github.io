@@ -24,14 +24,13 @@ Before I googled anything, WSL2 default consumes 50% of my 8GB allocated memory.
 
 ## Cons
 ### Instabilty
-Many times I lose Name resolutions either when change Wi-fi, VPN settings, or when my laptop falls asleep.
-### VPN connection
-### Windows Insider
-I use to be part of the Early Windoes Insider Program but for the sake of my deev environment not breaking with every unkown update. Shaking apprehension when I wake up the next morning seeing my laptop has done an automatic update and not knowing if Ubuntu shell would open. That is the nature of the Early Insider Program and since I am not tech savvy as the true hackers in that space, I downgraded to.
-### Configuration And Setup
-### Performance/memory
+Many times I lose Name resolutions either when change Wi-fi, VPN settings, or when I put my laptop to sleep. 
 
-I believe I can fix con if I particpate more in the Github
+Another major problem which is a known issue beyond WSL2 is infamous Windows automatic updates. I use to be part of the Early Windows Insider Program (a checkbox on the Windows Settings Screen) but for the sake of my deev environment not breaking with every unkown update. Shaking apprehension when I wake up the next morning seeing my laptop has done an automatic update and not knowing if Ubuntu shell would open. That is the nature of the Early Insider Program and since I am not tech savvy as the true hackers in that space, I downgraded to.
+### Configuration And Setup
+Like tools tmux and vim, wsl2 is not a plug-and-play setup especially if one is tryinging to have it done . I was reaching a bottleneck with having the shell open taking a majority of my ram. 
+
+Alot of these cons could be fixed with being more active on the forums as for example on the name resolution problem, that has been talked about in much detail with users posting scripts, i just have not
 
 ## Conclusions
 For the most part, the journey with WSL2 has been a great expereince and impressed with the Microsoft team work on this. I need to setup more contingency on my setup without it being an nuisance for my regular use. Excited to see what the WSL2 team at Microsoft. Will release another post about the specifics of my setup but in the meantime you can check my dotfiles on Github that has the information. If interested in setting it up, Frank Pigeon has a great tutorial on getting WSL2 setup.
